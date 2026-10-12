@@ -1,0 +1,7 @@
+build/
+verify/shots/
+verify/solutions.json
+verify/page.html
+verify/app-check.js
+__pycache__/
+*.pyc

@@ -1,0 +1,17 @@
+{
+  "name": "Dérouille",
+  "short_name": "Dérouille",
+  "description": "Remise à niveau backend façon Mimo : quiz par niveaux et défis de code.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F4F9",
+  "theme_color": "#F3F4F9",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
