@@ -10,5 +10,7 @@ App d'entraînement de Glady (quiz et défis code), en deux versions : artifact 
 - **Avant de publier** : `node build.js`, puis les 3 scripts de `verify/` doivent passer sans erreur.
 - **Format de progression** : `localStorage` clé `derouille-v1`, ou dans l'artifact le document `data/users/<id>/progress`. Rester rétrocompatible : `normalize()` complète les champs manquants, `mergeStates()` fusionne deux appareils (le champ `epoch` fait gagner une réinitialisation).
 - **Artifact** : https://claude.ai/artifact/Cv2yBPP1STxtwrdb9an3no. Publier `build/derouille-artifact.html` avec `url`. Capabilities : `db`, `user`, `sample`.
+- **Site** : https://grvdi243.github.io/D-rouille/, servi par GitHub Pages depuis le dépôt https://github.com/Grvdi243/D-rouille (branche `main`, dossier `/docs`). L'URL du site est dans `derouille.config.json`.
+- **Identité git du dépôt** : `Grvdi243 <Grvdi243@users.noreply.github.com>`, en configuration locale. Ne jamais committer avec l'adresse Gmail.
 - **Périmètre gelé** : c'est un projet annexe au fil rouge « Veille filtrée ». Les nouvelles idées vont dans « Plus tard » du README, pas dans le code.
 - **Git** : commit local après chaque changement. Jamais de push sans confirmation explicite de Glady.

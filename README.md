@@ -9,6 +9,8 @@ Le dépôt produit deux versions à partir des mêmes sources :
 | Artifact | claude.ai (privé) | synchronisée entre appareils | automatique, par Claude |
 | Site installable (PWA) | GitHub Pages (`docs/`) | sur l'appareil, plus un code de sauvegarde | liste de critères, plus copier-coller vers Claude |
 
+Le site installable est en ligne sur https://grvdi243.github.io/D-rouille/.
+
 Le code de sauvegarde (Profil, puis Sauvegarde) transfère la progression d'une version à l'autre et d'un appareil à l'autre. L'import fusionne les deux progressions : on garde le meilleur des deux.
 
 ## Structure

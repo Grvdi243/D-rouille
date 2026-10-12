@@ -21,7 +21,7 @@ if (body === undefined) throw new Error("marqueur <!--@BODY@--> absent de src/ap
 for (const marker of ["/*@CONFIG@*/", "/*@DATA@*/"]) if (!body.includes(marker)) throw new Error(marker + " absent de src/app.html");
 
 const hash = crypto.createHash("sha256")
-  .update([app, data, read("src/sw.js"), read("src/standalone.html"), read("src/manifest.webmanifest")].join("\0"))
+  .update([app, data, read("src/sw.js"), read("src/standalone.html"), read("src/manifest.webmanifest"), JSON.stringify(config)].join("\0"))
   .digest("hex").slice(0, 7);
 const now = new Date();
 const version = `${now.getFullYear()}.${now.getMonth() + 1}.${now.getDate()}-${hash}`;

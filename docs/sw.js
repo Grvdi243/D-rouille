@@ -1,5 +1,5 @@
 /* Service worker de Dérouille : l'app marche hors ligne et se met à jour en arrière-plan. */
-const VERSION = "2026.10.12-d992821";
+const VERSION = "2026.10.12-24d9075";
 const CACHE = "derouille-" + VERSION;
 const ASSETS = ["./","index.html","manifest.webmanifest","fonts/atkinson-hyperlegible-400.woff2","fonts/atkinson-hyperlegible-700.woff2","fonts/bricolage-grotesque-600.woff2","fonts/fonts.css","fonts/jetbrains-mono-400.woff2","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","icons/maskable-512.png"];
 
